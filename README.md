@@ -2,41 +2,45 @@
 
 Repository untuk website **gayuhmandala.co.id**.
 
-## Stable bundle
+## LOCKED baseline
 
-**Current stable: v1.1.1 — 28 Sep 2026**
+**Current LOCKED baseline: V1.1.2 — 28 Sep 2026**
 
-Download/installable bundle:
+User-verified status: **WORK / LOCKED**
 
-`releases/gayuhmanda-wordpress-stable-v1.1.1.zip`
+Bundle:
 
-Isi bundle:
-- Gayuh Site Core **v1.0.2**
-- Gayuh Fullwidth Templates **v1.0.0**
-- Gayuh Mandala GeneratePress Child Theme **v1.1.1**
+`releases/gayuhmanda-wordpress-LOCKED-v1.1.2.zip`
 
-## Current working scope
+Components:
+- Gayuh Site Core **V1.0.2**
+- Gayuh Fullwidth Templates **V1.0.0**
+- Gayuh Mandala GeneratePress Child Theme **V1.1.2**
 
-- Professional industrial/corporate Gayuh design.
-- Bilingual Indonesian/English UI with flag switcher.
-- Dynamic Partner Brands.
-- Dynamic WordPress Blog/Artikel.
-- Full-width blog layout without default WordPress sidebar.
-- Single article/archive/search styling.
-- Responsive GeneratePress site-logo sizing fix.
-- Partner name corrected to **Shanghai Manwang Electromechanical Equipment Co., Ltd.**
+Locked scope:
+- professional industrial/corporate Gayuh visual direction
+- bilingual Indonesian/English UI with flag switcher
+- dynamic Partner Brands
+- dynamic Blog/Artikel
+- full-width **Gayuh Blog / Insights** layout
+- article/archive/search styling
+- desktop GeneratePress logo sizing fix
+- mobile header fix: compact GM logo + company name + tagline + clearer hamburger button
+- partner name corrected to **Shanghai Manwang Electromechanical Equipment Co., Ltd.**
 
 ## Installation order
 
 1. Install **GeneratePress** parent theme.
 2. Install + activate `gayuh-site-core-v1.0.2.zip`.
 3. Install + activate `gayuh-fullwidth-templates-v1.0.0.zip`.
-4. Install + activate `gayuh-mandala-gp-child-v1.1.1.zip` from Appearance → Themes.
+4. Install + activate `gayuh-mandala-gp-child-v1.1.2.zip` from Appearance → Themes.
 5. For Artikel/Blog page choose template **Gayuh Blog / Insights**.
 6. For landing page choose **Gayuh Landing** or use shortcode `[gayuh_landing]`.
 
-The old **Gayuh Mandala Landing for Elementor** plugin is not required by this stable bundle.
+The old **Gayuh Mandala Landing for Elementor** plugin is not required.
 
-## Notes
+## Baseline rule
 
-The theme bundle in the GitHub release uses an optimized WordPress theme preview image only; runtime website code and assets remain the same.
+Do not modify the V1.1.2 LOCKED bundle in place. New work should use a new version and keep this package as rollback baseline.
+
+Previous stable release remains available under `releases/gayuhmanda-wordpress-stable-v1.1.1.zip`.
