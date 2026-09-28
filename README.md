@@ -1,29 +1,42 @@
-Cara memasang di WordPress
+# PT Gayuh Mandala Teknika — WordPress
 
-Backup website terlebih dahulu.
+Repository untuk website **gayuhmandala.co.id**.
 
-Simpan file dan database WordPress untuk keamanan.
+## Stable bundle
 
-Instal plugin.
+**Current stable: v1.1.1 — 28 Sep 2026**
 
-Masuk WordPress Dashboard → Plugins → Add New Plugin → Upload Plugin. Pilih ZIP di atas, instal, lalu aktifkan.
+Download/installable bundle:
 
-Buat halaman percobaan.
+`releases/gayuhmanda-wordpress-stable-v1.1.1.zip`
 
-Pages → Add New → beri judul "Landing Preview", lalu klik Edit with Elementor. Jangan ubah homepage dahulu.
+Isi bundle:
+- Gayuh Site Core **v1.0.2**
+- Gayuh Fullwidth Templates **v1.0.0**
+- Gayuh Mandala GeneratePress Child Theme **v1.1.1**
 
-Masukkan Shortcode.
+## Current working scope
 
-Tambahkan widget Shortcode di Elementor dan masukkan:
+- Professional industrial/corporate Gayuh design.
+- Bilingual Indonesian/English UI with flag switcher.
+- Dynamic Partner Brands.
+- Dynamic WordPress Blog/Artikel.
+- Full-width blog layout without default WordPress sidebar.
+- Single article/archive/search styling.
+- Responsive GeneratePress site-logo sizing fix.
+- Partner name corrected to **Shanghai Manwang Electromechanical Equipment Co., Ltd.**
 
-[gayuh_landing]
+## Installation order
 
-Salin
+1. Install **GeneratePress** parent theme.
+2. Install + activate `gayuh-site-core-v1.0.2.zip`.
+3. Install + activate `gayuh-fullwidth-templates-v1.0.0.zip`.
+4. Install + activate `gayuh-mandala-gp-child-v1.1.1.zip` from Appearance → Themes.
+5. For Artikel/Blog page choose template **Gayuh Blog / Insights**.
+6. For landing page choose **Gayuh Landing** or use shortcode `[gayuh_landing]`.
 
-Widget Shortcode memang didukung Elementor untuk menampilkan konten dari plugin. 
-Elementor
-+1
+The old **Gayuh Mandala Landing for Elementor** plugin is not required by this stable bundle.
 
-Preview dan periksa hasilnya.
+## Notes
 
-Pilih layout Elementor Canvas jika ingin tampilan penuh. Periksa tampilan desktop, HP, perpindahan bahasa, logo, dan formulir.
+The theme bundle in the GitHub release uses an optimized WordPress theme preview image only; runtime website code and assets remain the same.
